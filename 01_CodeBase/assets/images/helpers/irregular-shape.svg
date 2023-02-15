@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="276" height="314" viewBox="0 0 276 314">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="-28" y="-27" width="332" height="370" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="5.657"/>
+      <feFlood result="flood" flood-opacity="0.37"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+
+    <mask id="mask">
+    <path id="path" class="cls-1" d="M187.98,5.218c49.084-5.272,65.091,16.163,72.11,46.726,3.743,15.088,6.015,31.96,8.529,48.142,2.2,16.294,4.633,31.9,1.366,47.026-3.552,31.116-28.805,50.383-48.741,79.411-21.588,26.85-37.859,63.461-61.59,78.955-23.95,15.214-64.67-8.5-101.171-41.9C40.7,247,25.1,228.427,15.648,210.509,6,192.388,2.484,174.917,4.355,155.878c1.981-18.481,8.866-36.151,18.017-52.355A169.427,169.427,0,0,1,58.614,59.195c15.276-13.3,34.3-25.147,57.128-34.808C138.287,14.818,164.646,7.441,187.98,5.218Z" style="stroke: inherit; filter: none; fill: inherit"/>
+    </mask>
+
+  </defs>
+  <g style="fill: ; filter: url(#filter)">
+    <path id="path" class="cls-1" d="M187.98,5.218c49.084-5.272,65.091,16.163,72.11,46.726,3.743,15.088,6.015,31.96,8.529,48.142,2.2,16.294,4.633,31.9,1.366,47.026-3.552,31.116-28.805,50.383-48.741,79.411-21.588,26.85-37.859,63.461-61.59,78.955-23.95,15.214-64.67-8.5-101.171-41.9C40.7,247,25.1,228.427,15.648,210.509,6,192.388,2.484,174.917,4.355,155.878c1.981-18.481,8.866-36.151,18.017-52.355A169.427,169.427,0,0,1,58.614,59.195c15.276-13.3,34.3-25.147,57.128-34.808C138.287,14.818,164.646,7.441,187.98,5.218Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#path" style="stroke: #fff; filter: none; fill: none"/>
+
+
+  <image xlink:href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg" width="170" height="200" mask="url(#mask)"></image>
+</svg>
