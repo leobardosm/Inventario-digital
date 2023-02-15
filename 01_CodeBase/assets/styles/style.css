@@ -68,12 +68,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /*=============== General Styling ===================*/
 :root{
-    --theme-color:#226f54;
-    --theme-dark: #F4F0BB;
+    --theme-color:#683074;
+    --theme-dark: #ede4ef;
     --theme-font-size: 13px;
-    --theme-font-color: #000000;
+    --theme-font-color: #8b8b8b;
     --theme-title-size: 20px;
-    --theme-title-color: #87C38F;
+    --theme-title-color: #181818;
     --theme-transition: all 0.2s linear;
 }
 a{
@@ -597,6 +597,27 @@ svg.visual {position: absolute;left: -30px;top: 0;width: 40PX;height: 100%}
 .evc_blogCats a {background: var(--theme-color); color: #FFF; font-size: 12px; padding: 2px 15px; border-radius: 20px; line-height: 1.5; font-weight: 500}
 .evcBlogDetail h3 {font-size: 17px; font-weight: 600; margin-bottom: 15px}
 .evcBlogDetail p {margin: 0; font-size: 14px;}
+
+/*Posibles Categorias*/ 
+.evc_blogOrales {display: flex; column-gap: 10px; row-gap: 10px; margin-bottom: 20px}
+.evc_blogOrales a {background: #0f27a3; color: #FFF; font-size: 12px; padding: 2px 15px; border-radius: 20px; line-height: 1.5; font-weight: 500}
+
+.evc_blogArtesanales {display: flex; column-gap: 10px; row-gap: 10px; margin-bottom: 20px}
+.evc_blogArtesanales a {background: #2b8c45; color: #FFF; font-size: 12px; padding: 2px 15px; border-radius: 20px; line-height: 1.5; font-weight: 500}
+
+.evc_blogArtes {display: flex; column-gap: 10px; row-gap: 10px; margin-bottom: 20px}
+.evc_blogArtes a {background: #ab0a9d; color: #FFF; font-size: 12px; padding: 2px 15px; border-radius: 20px; line-height: 1.5; font-weight: 500}
+
+.evc_blogNaturaleza {display: flex; column-gap: 10px; row-gap: 10px; margin-bottom: 20px}
+.evc_blogNaturaleza a {background: #bd500d; color: #FFF; font-size: 12px; padding: 2px 15px; border-radius: 20px; line-height: 1.5; font-weight: 500}
+
+.evc_blogSocial {display: flex; column-gap: 10px; row-gap: 10px; margin-bottom: 20px}
+.evc_blogSocial a {background: #0a89a8; color: #FFF; font-size: 12px; padding: 2px 15px; border-radius: 20px; line-height: 1.5; font-weight: 500}
+
+.evc_blogGastronomia {display: flex; column-gap: 10px; row-gap: 10px; margin-bottom: 20px}
+.evc_blogGastronomia a {background: #a80a27; color: #FFF; font-size: 12px; padding: 2px 15px; border-radius: 20px; line-height: 1.5; font-weight: 500}
+
+/*Continua Código*/
 .evcBlogBottom {margin-top: auto; display: flex; padding: 0 20px; font-size: 12px; column-gap: 10px; color: #939393; font-weight: 500; margin-bottom: 20px}
 .moreInfo {margin-left: auto; display: flex; align-items: center; font-size: 14px; column-gap: 10px; font-weight: 500}
 .moreInfo span {display: flex; align-items: center; column-gap: 5px}
